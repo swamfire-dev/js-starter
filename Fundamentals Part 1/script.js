@@ -1,9 +1,12 @@
+/*
 let js = "amazing";
 // if (js === "amazing") alert("JavaScript is FUN!!!");
 // console.log(40 + 8 + 23 - 11)
 // console.log("Swamfire")
 // console.log(23)
+*/
 
+/*
 let firstName = "Swamfire"
 // // alert(firstName)
 // console.log(firstName)
@@ -13,7 +16,7 @@ let first_name = "SwamFire"
 let $first_name = 'SwamFire'
 // console.log(first_name)
 // console.log($first_name)
-
+*/
 
 // Always use descriptive names for your vars
 
@@ -36,6 +39,7 @@ Primitive Datatypes
 7. BigInt
 */
 
+/*
 // console.log(typeof 1)
 // console.log(typeof "SwamFire")
 // console.log(typeof true)
@@ -54,4 +58,18 @@ console.log(typeof year)
 year = 2023
 console.log(year)
 console.log(typeof year)
+*/
+
+
+let age = 30
+age = 31
+const birthYear = 2020
+// birthYear = 2023
+// const job
+var job = "Programmer"
+job = "Teacher"
+
+lastName = "SwamFire"
+console.log(lastName)
+console.log(typeof lastName)
 
