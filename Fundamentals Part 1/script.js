@@ -60,7 +60,7 @@ console.log(year)
 console.log(typeof year)
 */
 
-
+/*
 let age = 30
 age = 31
 const birthYear = 2020
@@ -72,4 +72,34 @@ job = "Teacher"
 lastName = "SwamFire"
 console.log(lastName)
 console.log(typeof lastName)
+*/
 
+const now = 2030
+const ageSwam = now - 2020
+const ageFire = now - 2010
+// console.log(ageFire, ageSwam)
+// console.log("multiply", ageFire * 2)
+// console.log("divide", ageFire / 2)
+// console.log("exponential", 2 ** 3)
+
+// const firstName = "Swam"
+// const lastName = "Fire"
+// console.log("string concat", firstName + lastName)
+
+// let x = 10 + 5
+// console.log(x)
+// x += 10
+// console.log(x)
+// x *= 4
+// console.log(x)
+// x++
+// console.log(x)
+// x--
+// console.log(x)
+
+console.log(ageFire > ageSwam)
+// >, <, <=, >=
+console.log(ageFire >= 10)
+
+const isFullAge = ageFire >= 10
+console.log(now - 2020 >= now - 2010)
