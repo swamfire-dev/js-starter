@@ -74,6 +74,7 @@ console.log(lastName)
 console.log(typeof lastName)
 */
 
+/*
 const now = 2030
 const ageSwam = now - 2020
 const ageFire = now - 2010
@@ -103,3 +104,17 @@ console.log(ageFire >= 10)
 
 const isFullAge = ageFire >= 10
 console.log(now - 2020 >= now - 2010)
+*/
+
+/*
+const now = 2030
+const ageSwam = now - 2020
+const ageFire = now - 2010
+console.log(now - 2020 >= now - 2010)
+let x, y
+x = y = 20 - 10 - 5
+console.log(x, y)
+const averageAge = (ageFire + ageSwam) / 2
+console.log(ageFire, ageSwam, "average age-", averageAge)
+*/
+
