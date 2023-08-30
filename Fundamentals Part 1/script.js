@@ -118,3 +118,15 @@ const averageAge = (ageFire + ageSwam) / 2
 console.log(ageFire, ageSwam, "average age-", averageAge)
 */
 
+const firstName = "SwamFire"
+const job = "teacher"
+const birthYear = 2020
+const year = 2030
+const str = "I'm " + firstName + ", a " + (year - birthYear) + " old " + job + "!"
+console.log(str);
+const strNew = `I'm ${firstName}, a ${year - birthYear} old ${job}!`
+console.log(strNew)
+const multiLineStr = `String
+Multiple
+lines`
+console.log(multiLineStr)
