@@ -118,6 +118,7 @@ const averageAge = (ageFire + ageSwam) / 2
 console.log(ageFire, ageSwam, "average age-", averageAge)
 */
 
+/*
 const firstName = "SwamFire"
 const job = "teacher"
 const birthYear = 2020
@@ -130,3 +131,27 @@ const multiLineStr = `String
 Multiple
 lines`
 console.log(multiLineStr)
+*/
+
+const age = 19
+const isOldEnough = age >= 18
+if (isOldEnough) { console.log("SwamFire can start driving license.") }
+
+const age1 = 15
+if (age1 >= 18) {
+    console.log("SwamFire can start driving license.")
+}
+else {
+    const yearsLeft = 18 - age1
+    console.log(`SwamFire wait for ${yearsLeft} years`)
+}
+
+const birthYear = 1990
+let century
+if (birthYear <= 2000) {
+    century = 20
+}
+else {
+    century = 21
+}
+console.log(century)
