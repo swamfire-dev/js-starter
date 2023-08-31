@@ -168,7 +168,7 @@ console.log(Number("jonas"), typeof NaN, Boolean(NaN))
 console.log(String(23), typeof String(23), 23)
 */
 
-
+/*
 console.log("I am " + 23 + " years old")
 console.log("23" - "10" - 3)
 console.log("23" + "10" + 3)
@@ -177,3 +177,33 @@ console.log("23" / "2")
 let n = "1" + 1
 n = n - 1
 console.log(n)
+*/
+
+// 5 default falsy values :- 0, "", undefined, null, NaN
+// everythiong else is truthy values
+
+console.log(Boolean(0))
+console.log(Boolean(""))
+console.log(Boolean(undefined))
+console.log(Boolean(null))
+console.log(Boolean(NaN))
+console.log(Boolean("SwamFire"))
+
+const money = 10
+money ? console.log('You have some money') : console.log('No Money')
+
+if (money) {
+    console.log("Dont Spend it all")
+}
+else {
+    console.log("You should get a job")
+}
+
+let height = 123
+if (height) {
+    console.log("Yay! Height is defined")
+}
+else {
+    console.log("Height is undefined")
+}
+
