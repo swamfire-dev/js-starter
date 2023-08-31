@@ -182,6 +182,7 @@ console.log(n)
 // 5 default falsy values :- 0, "", undefined, null, NaN
 // everythiong else is truthy values
 
+/*
 console.log(Boolean(0))
 console.log(Boolean(""))
 console.log(Boolean(undefined))
@@ -206,4 +207,28 @@ if (height) {
 else {
     console.log("Height is undefined")
 }
+*/
 
+const age = "18"
+if (age === 18) console.log("You have just become an adult (strict)")
+if (age == 18) console.log("You have just become an adult (loose)")
+
+
+const favourite = Number(prompt("Whats your favourite number"))
+console.log(favourite, typeof favourite)
+if (favourite == 23) {
+    console.log("23 is an amazing number")
+}
+if (favourite === 23) {
+    console.log("23 is an amazing number")
+}
+else if (favourite === 7) {
+    console.log("7 is also an amazing number");
+}
+else {
+    console.log("number is not 23 nor 7")
+}
+
+if (favourite !== 23) {
+    console.log("number is not 23")
+}
