@@ -276,6 +276,7 @@ else {
 }
 */
 
+/*
 const day = "satur"
 switch (day) {
     case 'sunday':
@@ -304,3 +305,17 @@ switch (day) {
         break
 
 }
+*/
+
+//statements does not return any value
+//expressions return values
+//string literals only use expressions, statements cant be used
+
+const age = 23
+age >= 18 ? console.log("Age is over 18") : console.log("Age is below 18")
+
+const result = age >= 18 ? "over 18" : "below 18"
+console.log("Age is", result)
+
+console.log(`Age is ${age >= 18 ? "over 18" : "below 18"}`)
+
