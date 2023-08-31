@@ -209,6 +209,7 @@ else {
 }
 */
 
+/*
 const age = "18"
 if (age === 18) console.log("You have just become an adult (strict)")
 if (age == 18) console.log("You have just become an adult (loose)")
@@ -231,4 +232,31 @@ else {
 
 if (favourite !== 23) {
     console.log("number is not 23")
+}
+*/
+
+
+const hasDriversLicense = true
+const hasGoodVision = true
+console.log(hasDriversLicense && hasGoodVision)
+console.log(hasDriversLicense || hasGoodVision)
+console.log(!hasDriversLicense)
+
+const shouldDrive = hasDriversLicense && hasGoodVision
+if (shouldDrive) {
+    console.log("Swamfire is able to drive")
+}
+else {
+    console.log("Someone else should drive")
+}
+
+const isTired = false
+console.log(hasDriversLicense && hasGoodVision && isTired)
+console.log(hasDriversLicense || hasGoodVision || isTired)
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+    console.log("Swamfire is able to drive")
+}
+else {
+    console.log("Someone else should drive")
 }
