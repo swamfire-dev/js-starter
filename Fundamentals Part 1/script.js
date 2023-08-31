@@ -235,7 +235,7 @@ if (favourite !== 23) {
 }
 */
 
-
+/*
 const hasDriversLicense = true
 const hasGoodVision = true
 console.log(hasDriversLicense && hasGoodVision)
@@ -259,4 +259,48 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 }
 else {
     console.log("Someone else should drive")
+}
+*/
+
+/*
+let scoreDolphins = (96 + 108 + 89) / 3
+let scoreKoalas = (88 + 91 + 110) / 3
+if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy")
+}
+else if (scoreDolphins < scoreKoalas) {
+    console.log("Koalas win the trophy")
+}
+else {
+    console.log("Both win the trophy")
+}
+*/
+
+const day = "satur"
+switch (day) {
+    case 'sunday':
+        console.log("its sunday")
+        break
+    case 'monday':
+        console.log("its monday")
+        break
+    case 'tuesday':
+        console.log("its tuesday")
+        break
+    case 'wednesday':
+        console.log("its wednesday")
+        break
+    case 'thursday':
+        console.log("its thursday")
+        break
+    case 'friday':
+        console.log("its friday")
+        break
+    case 'saturday':
+        console.log("its saturday")
+        break
+    default:
+        console.log("its default")
+        break
+
 }
