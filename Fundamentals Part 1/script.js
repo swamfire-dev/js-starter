@@ -133,6 +133,7 @@ lines`
 console.log(multiLineStr)
 */
 
+/*
 const age = 19
 const isOldEnough = age >= 18
 if (isOldEnough) { console.log("SwamFire can start driving license.") }
@@ -155,3 +156,24 @@ else {
     century = 21
 }
 console.log(century)
+*/
+
+/*
+const inputYear = `1991`
+console.log(Number(inputYear), typeof Number(inputYear))
+console.log(Number(inputYear) + 18)
+
+console.log(Number("jonas"), typeof NaN, Boolean(NaN))
+
+console.log(String(23), typeof String(23), 23)
+*/
+
+
+console.log("I am " + 23 + " years old")
+console.log("23" - "10" - 3)
+console.log("23" + "10" + 3)
+console.log("23" / "2")
+
+let n = "1" + 1
+n = n - 1
+console.log(n)
