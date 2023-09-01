@@ -311,6 +311,7 @@ switch (day) {
 //expressions return values
 //string literals only use expressions, statements cant be used
 
+/*
 const age = 23
 age >= 18 ? console.log("Age is over 18") : console.log("Age is below 18")
 
@@ -318,4 +319,10 @@ const result = age >= 18 ? "over 18" : "below 18"
 console.log("Age is", result)
 
 console.log(`Age is ${age >= 18 ? "over 18" : "below 18"}`)
+*/
 
+let bill = 430
+let tip
+tip = 50 <= bill && bill <= 300 ? bill * 15 / 100 : bill * 20 / 100
+
+console.log(`The bill was ${bill}, the tip was ${tip}, the total value ${bill + tip}`)
