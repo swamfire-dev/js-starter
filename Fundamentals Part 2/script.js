@@ -122,6 +122,7 @@ console.log(yearsUntilRetirement(1970, "HeatBlast"))
 console.log(yearsUntilRetirement(1960, "FourArms"))
 */
 
+/*
 const friends = ["SwamFire", "HeatBlast", "XLR8"]
 console.log(friends)
 
@@ -163,3 +164,40 @@ console.log(age3)
 const ages = [calcAge2(y[0]), calcAge2(y[1])]
 console.log(ages)
 console.log(ages.length)
+*/
+
+const friends = ["SwamFire", "HeatBlast", "XLR8"]
+console.log(friends)
+
+//Add elements
+let newLength = friends.push("DiamondHead")
+console.log(friends)
+console.log(newLength)
+
+//add at beginning
+friends.unshift("EchoEcho")
+console.log(friends)
+
+//remove element
+const popped = friends.pop()
+console.log(friends)
+console.log("popped element", popped)
+const shifted = friends.shift()
+console.log(friends)
+console.log("shifted element", shifted)
+
+// get index of element
+console.log("indexOf of SwamFire", friends.indexOf("SwamFire"))
+console.log("indexOf of HeatBlast", friends.indexOf("HeatBlast"))
+
+console.log(friends.includes("SwamFire"))
+console.log(friends.includes("Ben10"))
+
+friends.push(23)
+console.log(friends)
+console.log(friends.includes(23))
+
+if (friends.includes("SwamFire")) {
+    console.log("you have friend named SwamFire")
+}
+
