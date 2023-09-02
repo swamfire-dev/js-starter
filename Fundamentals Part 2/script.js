@@ -161,11 +161,13 @@ const age2 = calcAge2(y[1])
 console.log(age2)
 const age3 = calcAge2(y[2])
 console.log(age3)
-const ages = [calcAge2(y[0]), calcAge2(y[1])]
+const ages = [1991,
+    job: "teacher"calcAge2(y[0]), calcAge2(y[1])]
 console.log(ages)
 console.log(ages.length)
 */
 
+/*
 const friends = ["SwamFire", "HeatBlast", "XLR8"]
 console.log(friends)
 
@@ -200,4 +202,32 @@ console.log(friends.includes(23))
 if (friends.includes("SwamFire")) {
     console.log("you have friend named SwamFire")
 }
+*/
 
+const obj = {
+    firstName: "Swam",
+    lastName: "Fire",
+    age: 2037 - 1991,
+    job: "Teacher",
+    friends: ["EchoEcho", "XLR8", "FourArms"]
+}
+
+console.log(obj)
+console.log(typeof obj)
+
+//object retrieval
+console.log(obj.age, obj["age"])
+console.log(obj.lastName, obj["lastName"])
+const interestedIn = prompt("What do you want to know? choose between firstName, lastName, age, job, friends")
+// console.log(obj[interestedIn])
+// alert(obj[interestedIn])
+if (obj[interestedIn]) console.log(obj[interestedIn])
+else console.log("Wrong request")
+
+//add new properties to object
+obj.location = "INDIA"
+obj["state"] = "Maharashtra"
+console.log(obj)
+
+//challenge
+console.log(`${obj.firstName} has ${obj.friends.length} friends, and his best friend is called ${obj.friends[0]}`)
