@@ -204,6 +204,7 @@ if (friends.includes("SwamFire")) {
 }
 */
 
+/*
 const obj = {
     firstName: "Swam",
     lastName: "Fire",
@@ -231,3 +232,37 @@ console.log(obj)
 
 //challenge
 console.log(`${obj.firstName} has ${obj.friends.length} friends, and his best friend is called ${obj.friends[0]}`)
+*/
+
+const obj = {
+    firstName: "Swam",
+    lastName: "Fire",
+    birthYear: 1991,
+    job: "Teacher",
+    friends: ["EchoEcho", "XLR8", "FourArms"],
+    hasDriversLicense: false,
+    // calcAge: function (birthYear) {
+    //     // console.log(this)
+    //     return 2037 - this.birthYear
+    // }
+    // calcAge: (birthYear) => { return 2037 - birthYear }
+    calcAge: function (birthYear) {
+        this.age = 2037 - this.birthYear
+        return this.age
+    },
+    getSummary: function () {
+        return `${this.firstName} is ${this.calcAge()} years old ${this.job} and has ${this.hasDriversLicense ? "a" : "no"} drivers license`
+    }
+
+}
+
+console.log(obj)
+// console.log(obj.calcAge(1991))
+// console.log(obj["calcAge"](1991))
+console.log(obj.calcAge(obj.birthYear))
+console.log(obj["calcAge"](obj.birthYear))
+console.log(obj)
+
+//challenge
+// "Jonas is 46 year old teached and has drive a/no drivers license"
+console.log(obj.getSummary())
