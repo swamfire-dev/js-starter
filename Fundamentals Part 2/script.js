@@ -269,7 +269,35 @@ console.log(obj)
 console.log(obj.getSummary())
 */
 
-
+/*
 for (let rep = 1; rep <= 10; rep++) {
     console.log("Lifiting weights repetation", rep)
+}
+*/
+
+const friends = ["SwamFire", "HeatBlast", "XLR8", "EchoEcho", "DiamondHead"]
+// for (let i = 0; i < friends.length; i++) {
+//     console.log(`Friend ${i + 1}:`, friends[i])
+// }
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log('Hello')
+// }
+
+// for (let i = 0; i < friends.length; i++) {
+//     // if (friends[i] === "SwamFire") continue
+//     if (friends[i] === "XLR8") break
+//     console.log(`Friend ${i + 1}:`, friends[i])
+// }
+
+// for (let i = friends.length - 1; i >= 0; i--) {
+//     console.log(friends[i])
+// }
+// console.log(friends)
+
+for (let i = 1; i <= 3; i++) {
+    console.log(`----Starting exercise ${i}----`)
+    for (let j = 0; j < 3; j++) {
+        console.log(`Exercise ${i} Lifting weights ${j}`)
+    }
 }
