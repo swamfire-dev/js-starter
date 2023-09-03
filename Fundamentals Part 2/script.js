@@ -234,6 +234,7 @@ console.log(obj)
 console.log(`${obj.firstName} has ${obj.friends.length} friends, and his best friend is called ${obj.friends[0]}`)
 */
 
+/*
 const obj = {
     firstName: "Swam",
     lastName: "Fire",
@@ -266,3 +267,9 @@ console.log(obj)
 //challenge
 // "Jonas is 46 year old teached and has drive a/no drivers license"
 console.log(obj.getSummary())
+*/
+
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log("Lifiting weights repetation", rep)
+}
