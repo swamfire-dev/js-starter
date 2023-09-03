@@ -275,6 +275,7 @@ for (let rep = 1; rep <= 10; rep++) {
 }
 */
 
+/*
 const friends = ["SwamFire", "HeatBlast", "XLR8", "EchoEcho", "DiamondHead"]
 // for (let i = 0; i < friends.length; i++) {
 //     console.log(`Friend ${i + 1}:`, friends[i])
@@ -300,4 +301,23 @@ for (let i = 1; i <= 3; i++) {
     for (let j = 0; j < 3; j++) {
         console.log(`Exercise ${i} Lifting weights ${j}`)
     }
+}
+*/
+
+for (let i = 1; i <= 5; i++) {
+    console.log('Hello', i)
+}
+
+let rep = 1
+while (rep <= 5) {
+    console.log("Lifiting weights repetation", rep);
+    rep++;
+}
+
+let dice = Math.trunc(Math.random() * 6) + 1
+console.log(dice)
+while (dice !== 6) {
+    console.log("You rolled", dice)
+    dice = Math.trunc(Math.random() * 6) + 1
+    if (dice === 6) console.log("You rolled six! Loop about to end...")
 }
